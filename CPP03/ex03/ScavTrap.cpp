@@ -3,6 +3,9 @@
 
 ScavTrap::ScavTrap() : ClapTrap(){
     std::cout << GREEN "•ScavTrap• Default Constructor called" RESET<< std::endl;
+    this->hit_points = 100;
+    this->energy = 50;
+    this->attack_damage = 20;
 }
 
 ScavTrap::ScavTrap(const std::string new_name) : ClapTrap(new_name){
@@ -46,3 +49,6 @@ void ScavTrap::guardGate() {
     std::cout << CYAN << this->name << RESET << " is now in Gate Keeper mode." << std::endl;
 }
 
+void ScavTrap::setDefaultValues() {
+    this->energy = 50;
+}

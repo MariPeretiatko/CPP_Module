@@ -1,4 +1,4 @@
-SRCS		=	main.cpp ClapTrap.cpp ScavTrap.cpp FlagTrap.cpp
+SRCS		=	main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 CC_FLAGS		=	-std=c++98 -Wall -Wextra -Werror -g
 CC				=	c++
 OBJS_F			= obj/
@@ -6,7 +6,7 @@ OBJS_F			= obj/
 
 OBJS		=	$(SRCS:.cpp=.o)
 OBJS_P		=	$(addprefix $(OBJS_F), $(SRCS:.cpp=.o))
-NAME		= 	flagtrap
+NAME		= 	fragtrap
 
 all:$(NAME)
 

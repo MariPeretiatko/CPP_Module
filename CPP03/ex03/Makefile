@@ -1,4 +1,4 @@
-SRCS		=	main.cpp ClapTrap.cpp ScavTrap.cpp FlagTrap.cpp DiamondTrap.cpp
+SRCS		=	main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 CC_FLAGS		=	-std=c++98 -Wall -Wextra -Werror -Wno-shadow -Wshadow -g
 CC				=	c++
 OBJS_F			= obj/

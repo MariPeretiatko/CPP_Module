@@ -6,7 +6,7 @@ OBJS_F			= obj/
 
 OBJS		=	$(SRCS:.cpp=.o)
 OBJS_P		=	$(addprefix $(OBJS_F), $(SRCS:.cpp=.o))
-NAME		= 	clabtrap
+NAME		= 	claptrap
 
 all:$(NAME)
 

@@ -11,11 +11,11 @@
 /* ************************************************************************** */
 
 //#include "ClapTrap.h"
-#include "FlagTrap.h"
+#include "FragTrap.h"
 
 int main()
 {
-    FlagTrap tmp("qwerty");
+    FragTrap tmp("qwerty");
     std::cout <<tmp.getName() << std::endl;
     std::cout <<tmp.getEnergy() << std::endl;
     tmp.attack("10");
@@ -23,24 +23,6 @@ int main()
     tmp.beRepaired(1);
     tmp.highFivesGuys();
 
-//    ClapTrap tmp("123");
-//    tmp.attack("456");
-//    tmp.takeDamage(4);
-//    tmp.beRepaired(10);
-//    tmp.takeDamage(4);
-//    tmp.beRepaired(10);
-//    tmp.beRepaired(10);
-//    tmp.takeDamage(4);
-//    tmp.beRepaired(1);
-//    tmp.beRepaired(1);
-//    tmp.beRepaired(1);
-//    tmp.beRepaired(1);
-//    tmp.beRepaired(1);
-//    tmp.beRepaired(1);
-//    tmp.beRepaired(1);
-//    tmp.beRepaired(1);
-//    tmp.takeDamage(40);
-//    tmp.beRepaired(1);
 	return 0;
 }
 

@@ -6,9 +6,9 @@
 #define CPP_DIAMONDTRAP_H
 
 #include "ScavTrap.h"
-#include "FlagTrap.h"
+#include "FragTrap.h"
 
-class DiamondTrap : public ScavTrap,  public FlagTrap{
+class DiamondTrap : public ScavTrap,  public FragTrap{
 private:
     std::string name;
 public:
@@ -17,6 +17,8 @@ public:
     DiamondTrap& operator=(const DiamondTrap& obj);
     DiamondTrap (const DiamondTrap& obj);
     ~DiamondTrap();
+
+    std::string getName();
 
     void whoAmI();
     void attack(const std::string& target);
