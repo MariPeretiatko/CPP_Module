@@ -237,6 +237,7 @@ int main() {
             Bureaucrat b2("Alice", 150);
 
             Form f1("FormA", 10, 150);
+//            f1.beSigned(b1);
             b1.signForm(f1);  // Это должно успешно подписать форму
             b2.signForm(f1);  // Это должно успешно подписать форму
 

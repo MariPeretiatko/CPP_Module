@@ -54,7 +54,7 @@ void Bureaucrat::promote() {
 void Bureaucrat::signForm(Form &form) {
   try {
         if(form.beSigned(*this))
-            std::cout << this->name << " signed " << form.getName() << std::endl;
+        	std::cout << this->name << " signed " << form.getName() << std::endl;
 //            else
 //                std::cout << this->name << " signed " << form.getName() << std::endl;
 

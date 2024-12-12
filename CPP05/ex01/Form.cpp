@@ -55,6 +55,8 @@ bool Form::beSigned(Bureaucrat &bureaucrat) {
     if(bureaucrat.getGrade() > gradeSign)
         throw GradeTooHighException();
     isSigned = true;
+    std::cout<< "Form successfully signed" <<std::endl;
+
     return true;
 }
 
